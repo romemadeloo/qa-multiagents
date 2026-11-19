@@ -1,0 +1,18 @@
+{
+  "project": "Musticker",
+  "timezone": "Asia/Manila",
+  "defaultTarget": "storefront",
+  "targets": {
+    "storefront": "https://dev-static-9.musticker.com/",
+    "admin": "https://dev-static-9-admin-panel.musticker.com/"
+  },
+  "brands": {
+    "musticker": {
+      "domains": ["musticker.com"],
+      "devHostPattern": "^(dev|shared-dev)-[a-z0-9-]+\\.musticker\\.com$",
+      "productionHosts": ["musticker.com", "www.musticker.com", "api.musticker.com", "admin-panel.musticker.com"]
+    }
+  },
+  "ticketsDir": "../tickets",
+  "ticketUrlTemplate": "https://glophics-team-tejd16ze.atlassian.net/browse/{id}"
+}

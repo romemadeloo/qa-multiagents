@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+playwright/.auth/
+artifacts/
+test-results/
+playwright-report/
+blob-report/
+*.log
+.DS_Store
+.claude/settings.local.json
+.claude/agent-memory-local/
+# Ticket folders now live outside this repo in ../tickets/. Ignore any stray copy here.
+tickets/

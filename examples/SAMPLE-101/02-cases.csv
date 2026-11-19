@@ -1,0 +1,6 @@
+case_id,ac_ids,title,priority,target,type,actor,preconditions,test_data,steps,expected_result,automation,initial_status,notes
+SAMPLE-101-TC-01,SAMPLE-101-AC-01,Valid email shows success message,P1,storefront,functional,guest,Home page open,qa+news@example.test,"1. Scroll to footer 2. Type email 3. Click Subscribe",Success message is shown,yes,NOT_RUN,
+SAMPLE-101-TC-02,SAMPLE-101-AC-02,Invalid email shows validation,P1,storefront,negative,guest,Home page open,abc@,"1. Type abc@ 2. Click Subscribe",Validation message shown and no network request,yes,NOT_RUN,
+SAMPLE-101-TC-03,SAMPLE-101-AC-03,Empty field disables Subscribe,P2,storefront,functional,guest,Home page open,(empty),1. Leave field empty,Subscribe button is disabled,yes,NOT_RUN,
+SAMPLE-101-TC-04,SAMPLE-101-AC-04,Message is announced to screen readers,P2,storefront,accessibility,guest,TC-01 done,qa+news@example.test,"1. Submit valid email 2. Inspect message element",Message container has role=status,yes,NOT_RUN,
+SAMPLE-101-TC-05,SAMPLE-101-AC-01,Re-submit same email,P3,storefront,edge,guest,TC-01 done,qa+news@example.test,1. Submit the same email again,Same success message (per Q-01),no,NOT_RUN,

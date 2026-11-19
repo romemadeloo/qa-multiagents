@@ -1,0 +1,20 @@
+[
+  { "name": "qa-intake", "description": "Normalize a new ticket, identify acceptance criteria and missing requirements, and establish traceable source references.",
+    "model": "sonnet", "effort": "medium", "disallowedTools": ["Bash", "PowerShell", "NotebookEdit", "mcp__claude-in-chrome"] },
+  { "name": "qa-planner", "description": "Review ticket requirements, Figma, and documentation; assess risk and write the test plan.",
+    "model": "opus", "effort": "high", "disallowedTools": ["Bash", "PowerShell", "NotebookEdit", "mcp__claude-in-chrome"] },
+  { "name": "qa-cases", "description": "Create detailed manual and automation candidate test cases with requirement traceability.",
+    "model": "sonnet", "effort": "high", "disallowedTools": ["Bash", "PowerShell", "NotebookEdit", "mcp__claude-in-chrome"] },
+  { "name": "qa-automation", "description": "Implement and maintain TypeScript Playwright tests for reviewed ticket cases.",
+    "model": "sonnet", "effort": "high", "disallowedTools": ["NotebookEdit"] },
+  { "name": "qa-execution", "description": "Run Playwright tests, guide manual execution, and record actual results and evidence.",
+    "model": "sonnet", "effort": "medium", "disallowedTools": ["NotebookEdit"] },
+  { "name": "qa-defects", "description": "Triage observed failures, draft reproducible defect reports, and track fix verification.",
+    "model": "sonnet", "effort": "medium", "disallowedTools": ["NotebookEdit", "mcp__claude-in-chrome"] },
+  { "name": "qa-release", "description": "Independently evaluate ticket release readiness against coverage, current build results, and defect retests.",
+    "model": "opus", "effort": "high", "disallowedTools": ["NotebookEdit", "mcp__claude-in-chrome"] },
+  { "name": "qa-automation-reviewer", "description": "After ticket completion, assess generated Playwright for promotion, adapt qualified tests to the main suite's existing POM and fixtures, and validate the reviewable result.",
+    "model": "opus", "effort": "high", "disallowedTools": ["NotebookEdit"] },
+  { "name": "qa-knowledge", "description": "Curate verified reusable product knowledge, regression lessons, and durable handoffs shared across tools.",
+    "model": "haiku", "disallowedTools": ["Bash", "PowerShell", "NotebookEdit", "mcp__claude-in-chrome"] }
+]

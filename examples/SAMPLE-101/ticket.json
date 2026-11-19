@@ -1,0 +1,25 @@
+{
+  "id": "SAMPLE-101",
+  "title": "Footer newsletter signup shows a confirmation message",
+  "sourceUrl": "https://your-company.atlassian.net/browse/SAMPLE-101",
+  "createdAt": "2026-11-19T01:00:00.000Z",
+  "updatedAt": "2026-11-19T07:30:00.000Z",
+  "phase": "release",
+  "status": "awaiting_owner_decision",
+  "environment": {
+    "brand": "example",
+    "server": "dev",
+    "storefront": "https://dev.example.test/",
+    "source": "owner",
+    "recordedAt": "2026-11-19T01:00:00.000Z"
+  },
+  "phases": {
+    "intake": "done",
+    "planning": "done",
+    "cases": "done",
+    "automation": "done",
+    "execution": "done",
+    "defects": "done",
+    "release": "done"
+  }
+}

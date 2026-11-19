@@ -1,0 +1,5 @@
+# Project-local only. Models, credentials, permissions, and MCP servers inherit
+# from your existing Codex session. Native roles are in .codex/agents/*.toml.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3
